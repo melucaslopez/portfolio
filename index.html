@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lucas's Portfolio</title>
+  </head>
+  <body>
+    
+    <header>
+      <div class="header_logo">
+        <img id="logo" src="img/logo.png" alt="logo">
+      </div>
+      <div class="header_title">
+        <h1 class="name">Lucas Lopez</h1>
+        <p class="title">Software Developer</p>
+      </div>
+    </header>
+    
+    <nav id="drawer" class="nav">
+      <div class="nav_item">
+        <a href="#about_me">About</a>
+      </div>
+      <div class="nav_item">
+        <a href="#projects">Projects</a>
+      </div>
+      <div class="nav_item">
+        <a href="#contact_me">Connect</a>
+      </div>
+    </nav>
+
+    <main>
+      <!--About me-->
+      <section id="about_me">
+        <h2 class="about">About Me</h2>
+        <picture>
+          <source media="(min-width: 800px)" srcset="img/profile_picture-lg.jpg">
+          <source media="(max-width: 450px)" srcset="img/profile_picture-sm.jpg">
+          <img id="about_img" src="img/profile_picture-md.jpg" alt="profile picture">
+        </picture>
+        <p>I am looking for an opportunity to develop and grow products with fresh and news perspectives, to be able to add value to the company with different approaches to get things done and finally looking for a place where I can learn new technologies as well as help and teach others. I do not settle down with only one task and I like to be very productive in my work. I like helping others and ask for help when I need it.</p>
+      </section>
+      <!--Projects-->
+      <section id="projects">
+        <h2 class="projects_title">Projects</h2>
+        <div class="snippets">
+          <div class="snippet">
+            <h3 class="snippet_title"><a href="https://codepen.io/LucasLopez/full/eVwRVb/">Pixel Art Maker</a></h3>
+            <img class="snippet_thumbnail" src="img/pixel_art_project.png" alt="Pixel Art Maker project in CodePen">
+          </div>
+          <div class="snippet">
+            <h3 class="snippet_title"><a href="https://codepen.io/LucasLopez/full/qYxgaM">Animal Card</a></h3>
+            <img class="snippet_thumbnail" src="img/animal_card.png" alt="Animal Card project in CodePen">
+          </div>
+          <div class="snippet">
+            <h3 class="snippet_title"><a href="https://github.com/LucasSantiagoLopez/shipt-automation">Automated Test Cases</a></h3>
+            <img class="snippet_thumbnail" src="img/automated_test.png" alt="Automated Test Cases for Login feature in github">
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <!--Connect-->
+    <footer>
+      <section id="contact_me">
+        <h2>Connect</h2>
+        <div class="links">
+          <a href="mailto:melucaslopez@gmail.com">Contact me</a>
+          <a href="https://www.linkedin.com/in/lucas-lopez/">LinkedIn</a>
+          <a href="https://github.com/LucasSantiagoLopez">Github</a>
+          <a href="https://twitter.com/melucaslopez">Twitter</a>
+          <a href="https://www.facebook.com/LucasSantiagoLopez">Facebook</a>
+        </div>
+        <p>&copy; 2018 Lucas Lopez</p>
+      </section>
+    </footer>
+  </body>
+</html>
